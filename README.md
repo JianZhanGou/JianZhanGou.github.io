@@ -44,13 +44,4 @@
 * <span>E-Mail : JianZhanGou@foxmail.com</span>
 
 
-![建站狗联系方式二维码](/erweima.png)
-
-
-
-
-
-<style>
-	.main li { list-style: square; }
-	.main span { font-weight: 600; color: #42b983; }
-</style>
+![建站狗联系方式二维码](docs/public/erweima.png)
