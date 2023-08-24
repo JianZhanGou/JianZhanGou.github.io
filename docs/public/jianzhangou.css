@@ -1,0 +1,6 @@
+@media (max-width: 576px) {
+	main ul li {
+		word-break: break-all !important;
+		word-wrap: break-word !important;
+	}
+}
