@@ -43,12 +43,7 @@
 
 * <span>E-Mail : JianZhanGou@foxmail.com</span>
 
-
 ![建站狗联系方式二维码](/erweima.png)
-
-
-
-
 
 <style>
 	.main li { list-style: square; }
