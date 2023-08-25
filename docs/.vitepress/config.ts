@@ -32,8 +32,34 @@ export default defineConfig({
 			provider: 'local'
 		},
 
+		// 主菜单导航栏
 		nav: [
-			{ text: 'index', link: '/index.md', activeMatch: '/' },
+			{ text: 'Linux', link: '/jishu/Linux/', activeMatch: '/jishu/Linux/' },
+			{ text: 'Nginx', link: '/jishu/Nginx/', activeMatch: '/jishu/Nginx/' },
+			{ text: 'MySQL', link: '/jishu/MySQL/', activeMatch: '/jishu/MySQL/' },
+			{ text: 'PHP', link: '/jishu/PHP/', activeMatch: '/jishu/PHP/' },
+			{ text: 'GoLang', link: '/jishu/GoLang/', activeMatch: '/jishu/GoLang/' },
+			
+			{ text: 'Web', activeMatch: '/jishu/Web/',
+				items: [
+					{ text: 'HTML', link: '/jishu/Web/HTML/', activeMatch: '/jishu/Web/HTML/' },
+					{ text: 'CSS', link: '/jishu/Web/CSS/', activeMatch: '/jishu/Web/CSS/' },
+					{ text: 'JS', link: '/jishu/Web/JS/', activeMatch: '/jishu/Web/JS/' },
+					{ text: 'Bootstrap', link: '/jishu/Web/Bootstrap/', activeMatch: '/jishu/Web/Bootstrap/' },
+					{ text: 'Vue', link: '/jishu/Web/Vue/', activeMatch: '/jishu/Web/Vue/' }
+				]
+			},
+			
+			{ text: 'CMS', activeMatch: '/jishu/CMS/',
+				items: [
+					{ text: 'DedeCMS', link: '/jishu/CMS/DedeCMS/', activeMatch: '/jishu/CMS/DedeCMS/' },
+					{ text: 'WordPress', link: '/jishu/CMS/WordPress/', activeMatch: '/jishu/CMS/WordPress/' },
+					{ text: 'PBootCMS', link: '/jishu/CMS/PBootCMS/', activeMatch: '/jishu/CMS/PBootCMS/' },
+					{ text: 'EYouCMS', link: '/jishu/CMS/EYouCMS/', activeMatch: '/jishu/CMS/EYouCMS/' }
+				]
+			},
+			
+			{ text: 'Git', link: '/jishu/Git/', activeMatch: '/jishu/Git/' },
 		],
 
 		socialLinks: [

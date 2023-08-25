@@ -18,14 +18,14 @@ hero:
       text: 个人简介
       link: /resume.md
     - theme: alt
-      text: 技术博客
-      link: /sitemap.md
+      text: 技术笔记
+      link: /jishu/
 
 features:
   - icon: 🚀
     title: 技术笔记
     details: 技术成就梦想，知识改变命运...
-    link: /xuexi/
+    link: /jishu/
     linkText: ReadMore
 
   - icon: 🏆
