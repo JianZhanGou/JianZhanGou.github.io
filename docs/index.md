@@ -10,8 +10,8 @@ head:
 
 hero:
   name: JianZhanGou
-  text: 学习技术 , 分享成长
-  tagline: 建站狗，专注建站十三年！诚信、靠谱、放心！
+  text: 博观约取 , 厚积薄发
+  tagline: 建站狗，专注建站十三年！建站就找建站狗，专业、诚信、省心！
   image: /banner.png
   actions:
     - theme: brand

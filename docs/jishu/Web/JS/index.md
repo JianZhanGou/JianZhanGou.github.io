@@ -1,1 +1,1 @@
-# index.md
+# JS笔记
